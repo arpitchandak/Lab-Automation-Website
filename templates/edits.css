@@ -1,0 +1,43 @@
+
+
+body{
+    background-color: black;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+#div1{
+    background-image: url("img/bulb1.png");
+    background-size: cover;
+    padding: 0px;
+
+}
+
+#div2{
+    background-image: url("img/black-and-white-design-wallpapers-hd.jpg");
+    background-size: cover;
+    padding: 0px;
+    border: solid white;
+    clear: both;
+    overflow: visible;
+
+}
+
+#connect{
+    margin-top: 350px;
+    background: transparent;
+    border: none;
+    font-size: 30px;
+}
+
+#connect:hover{
+    cursor: pointer;
+    color: red;
+}
+
+h1{
+    color: white;
+    margin-top: 120px;
+   
+}
