@@ -25,9 +25,29 @@ $('#connect').click(function(){
     window.location.href = "#div2";
 })
 
-$('#fanon').click(function(){
+$('#fan1').click(function(){
     client.publish('/connect_fan','f1');
     //client.subscribe('/connect_light');
+    document.getElementById("fans1").src='img/fanon.png';
+
+})
+$('#fan1f').click(function(){
+    client.publish('/connect_fan','f1#');
+    //client.subscribe('/connect_light');
+    document.getElementById("fans1").src='img/fanoff.png';
+
+})
+$('#fan2').click(function(){
+    client.publish('/connect_fan','f2');
+    //client.subscribe('/connect_light');
+    document.getElementById("fans2").src='img/fanon.png';
+
+})
+$('#fan2f').click(function(){
+    client.publish('/connect_fan','f2#');
+    //client.subscribe('/connect_light');
+    document.getElementById("fans2").src='img/fanoff.png';
+
 })
 
 $('#light1').click(function(){
@@ -35,7 +55,30 @@ $('#light1').click(function(){
     document.getElementById("bulb1").src='img/bulb-on.png';
 
 })
+$('#light1f').click(function(){
+    client.publish('/connect_light','l1#');
+    document.getElementById("bulb1").src='img/bulb-off.png';
 
+})
+$('#light2').click(function(){
+    client.publish('/connect_light','l2');
+    document.getElementById("bulb2").src='img/bulb-on.png';
 
+})
+$('#light2f').click(function(){
+    client.publish('/connect_light','l2#');
+    document.getElementById("bulb2").src='img/bulb-off.png';
+
+})
+$('#light3').click(function(){
+    client.publish('/connect_light','l3');
+    document.getElementById("bulb3").src='img/bulb-on.png';
+
+})
+$('#light3f').click(function(){
+    client.publish('/connect_light','l3#');
+    document.getElementById("bulb3").src='img/bulb-off.png';
+
+})
 
 })
