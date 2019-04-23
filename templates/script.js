@@ -80,5 +80,10 @@ $('#light3f').click(function(){
     document.getElementById("bulb3").src='img/bulb-off.png';
 
 })
+  
+    //to move to the top on reload
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
 
 })
