@@ -28,56 +28,56 @@ $('#connect').click(function(){
 $('#fan1').click(function(){
     client.publish('/connect_fan','f1');
     //client.subscribe('/connect_light');
-    document.getElementById("fans1").src='img/fanon.png';
+    document.getElementById("fans1").src='img/fan.gif';
 
 })
 $('#fan1f').click(function(){
     client.publish('/connect_fan','f1#');
     //client.subscribe('/connect_light');
-    document.getElementById("fans1").src='img/fanoff.png';
+    document.getElementById("fans1").src='img/fan1.png';
 
 })
 $('#fan2').click(function(){
     client.publish('/connect_fan','f2');
     //client.subscribe('/connect_light');
-    document.getElementById("fans2").src='img/fanon.png';
+    document.getElementById("fans2").src='img/fan.gif';
 
 })
 $('#fan2f').click(function(){
     client.publish('/connect_fan','f2#');
     //client.subscribe('/connect_light');
-    document.getElementById("fans2").src='img/fanoff.png';
+    document.getElementById("fans2").src='img/fan1.png';
 
 })
 
 $('#light1').click(function(){
     client.publish('/connect_light','l1');
-    document.getElementById("bulb1").src='img/bulb-on.png';
+    document.getElementById("bulb1").src='img/bulb.gif';
 
 })
 $('#light1f').click(function(){
     client.publish('/connect_light','l1#');
-    document.getElementById("bulb1").src='img/bulb-off.png';
+    document.getElementById("bulb1").src='img/bulb1a.png';
 
 })
 $('#light2').click(function(){
     client.publish('/connect_light','l2');
-    document.getElementById("bulb2").src='img/bulb-on.png';
+    document.getElementById("bulb2").src='img/bulb.gif';
 
 })
 $('#light2f').click(function(){
     client.publish('/connect_light','l2#');
-    document.getElementById("bulb2").src='img/bulb-off.png';
+    document.getElementById("bulb2").src='img/bulb1a.png';
 
 })
 $('#light3').click(function(){
     client.publish('/connect_light','l3');
-    document.getElementById("bulb3").src='img/bulb-on.png';
+    document.getElementById("bulb3").src='img/bulb.gif';
 
 })
 $('#light3f').click(function(){
     client.publish('/connect_light','l3#');
-    document.getElementById("bulb3").src='img/bulb-off.png';
+    document.getElementById("bulb3").src='img/bulb1a.png';
 
 })
   

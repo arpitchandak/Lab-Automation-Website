@@ -15,12 +15,22 @@ body{
 }
 
 #div2{
-    background-image: url("https://i1.wp.com/www.ultracapital.com/wp-content/uploads/2016/02/Black-Dark-Spot-White-Texture-Background-Pattern-WallpapersByte-com-3840x2160.jpg?ssl=1");
-    background-size: cover;
-    padding: 0px;
+    background-color: white;
+    opacity: 0.9;
+    padding: 40px;
     margin-top: 120px;
-    overflow: auto;
+      border-style: dashed;
+    border-color: red;
   }
+
+#div3{
+    background-color: gray;
+    opacity: 1.0;
+    padding: 40px;
+    margin-bottom: 30px;
+    border-style: dashed;
+    border-color: gold;
+     }
 
 #connect{
     margin-top: 250px;
@@ -51,14 +61,26 @@ h1{
     height: 250px;
     width: 220px;
     margin: 20px;   
+    opacity: 0.7;
+
 }
 
-/*#obj3:hover{
-    background-color: bisque;
-    opacity: 30%;
-    border: solid black;
+#obj2:hover{
+    background-color: white;
+    opacity: 0.9;
     border-radius: 15px;
-}*/
+    
+}
+#obj3:hover{
+     background-color: white;
+    opacity: 0.9;
+    border-radius: 15px;
+}
+#obj1:hover{
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 15px;
+}
 
 #lights{
     text-align: center;
